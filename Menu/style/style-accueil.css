@@ -1,0 +1,144 @@
+* {
+    color: solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul img{
+    width: 110px;
+}
+a{
+    color : rgba(245, 95, 95, 0.24);
+    text-decoration: none;
+}
+
+a:hover{
+    color :rgb(245, 95, 95)
+}
+#logMenuAccueil ul{/*dynamic menu position*/
+    width: 95%;
+    justify-content: flex-end;
+    display: inline-flex;
+}
+
+#logMenuAccueil ul li{/*dynamic menu style*/
+    font-size: 15px;
+    margin: 40px;
+    border-bottom: black;
+    text-decoration: none;
+    color :rgba(245, 95, 95, 0.24);
+    list-style: none;
+ 
+}
+
+#logoAccueil{/*logo width and position*/
+    text-align: center;
+    margin: 0 auto;
+}
+
+#traitMenu{/*creation of the black line*/
+    margin: 0 auto;
+    padding-left: 192px;
+    width: 600px;
+    border-bottom: solid black;
+
+}
+
+#textBienvenue{/*sub title*/
+    text-align: center;
+    font-size: 30px;
+}
+
+#secondFont{/*background second part*/
+    background: linear-gradient( #ffeb99 1%, #ffcc00 70%);
+    width: 100%;
+    height: 700px;
+    box-shadow: 5px 10px black;
+}
+
+#redirection ul{/*buttons position in page*/
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#redirection ul li{/*buttons positions in list*/
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 100px;
+}
+
+#redirection1{/*buttons style, dynamism with transform and tranition, and global height*/
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin : 0 auto;
+    transform: rotate(45deg);
+    transition: transform 2s;
+    border : solid black;
+    box-shadow: 5px 10px rgba(245, 95, 95, 0.24);
+
+}
+#redirection1Text{/*buttons counter rotation for straight logo*/
+    margin: 50px;
+    transform: rotate(-45deg);
+}
+#redirection1:hover{/*double rotation (x.Y) when mouse going over */
+    transform:  rotateY(180deg) rotate(45deg);
+}
+
+#redirection2{/*buttons style, dynamism with transform and tranition, and global height*/
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin : 0 auto;
+    transform: rotate(45deg);
+    transition: transform 2s;
+    border : solid black;
+    box-shadow: 5px 10px rgba(245, 95, 95, 0.24);
+}
+#redirection2Text{/*buttons counter rotation for straight logo*/
+    margin: 50px;
+    transform: rotate(-45deg);
+}
+#redirection2:hover{/*double rotation (x.Y) when mouse going over */
+    transform:  rotateY(180deg) rotate(45deg);
+}
+
+#redirection3{/*buttons style, dynamism with transform and tranition, and global height*/
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin : 0 auto;
+    transform: rotate(45deg);
+    transition: transform 2s;
+    border : solid black;
+    box-shadow: 5px 10px rgba(245, 95, 95, 0.24);
+
+}
+#redirection3Text{/*buttons counter rotation for straight logo*/
+    margin: 50px;
+    transform: rotate(-45deg);
+   
+}
+#redirection3:hover{/*double rotation (x.Y) when mouse going over */
+    transform:  rotateY(180deg) rotate(45deg);
+}
+
+#intituleRedirection ul li{/*legend position and style*/
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0%;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    margin: 0px 100px ;
+    text-align: center;
+}
+
+#intituleRedirection ul{/*liste position*/
+    text-align: center;
+}
+
